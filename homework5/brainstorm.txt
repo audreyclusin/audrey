@@ -1,0 +1,12 @@
+1) Particle classification, star identification, modeling sun's path, solar flare/CME logging, modeling mechanical situations
+2) 
+For solar flare cataloging: https://data.nas.nasa.gov/helio/portals/solarflares/datasources.html
+- This website provides links to various datasets that I would be able to analyze to graph in some way. 
+For modeling the sun's path: https://gml.noaa.gov/grad/solcalc/calcdetails.html
+- This website comes from an existing model of the sun's path across the year, and it has provided a data set for the explicit purpose of allowing people to make their own models of the sun. 
+For particle classification: https://www.kaggle.com/datasets/naharrison/particle-identification-from-detector-responses
+- This website provides particle physics data for the purpose of training machine learning models to classify particles. 
+3) For modeling the sun's trajectory in the sky across the year, I would need to use matplotlib to display my data. To do this, I would need to figure out how the data sets were categorized, and I would need to recategorize them into my own dictionary format by looping through each data set if needed. I would continuously update my progress to GitHub. 
+4) 
+Dream idea: Have an interactive, continuous map that would provide the sun's trajectory in the sky across the year for that location. Because the sun's location in the sky changes based on both the observer's location, the time of day, and the year, the simulation would need to be able to change its model for each of these inputs without discrete data points existing already. 
+Realistic: Using a set of data from one to five set locations, graph the trajectory of the sun in the sky on one day of each month throughout the year. 
